@@ -1,0 +1,20 @@
+.todo-item {
+  padding: 10px;
+  transition: background-color 0.5s ease;
+  border: 1px solid #f2f2f2;
+  width: 100%;
+  max-width: 400px;
+  cursor: pointer;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.todo-item:hover {
+  background-color: white;
+}
+
+.dragHandle {
+  width: 200px;
+}
