@@ -7,7 +7,7 @@ import { sortableHandle } from "react-sortable-hoc";
 
 const DragHandle = sortableHandle(() => (
   <span>
-    <label for="toggle">&#9776;</label>
+    <label>&#9776;</label>
   </span>
 ));
 
