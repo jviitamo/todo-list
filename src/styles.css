@@ -2,10 +2,14 @@
   box-sizing: border-box;
 }
 
-html {
-  background-image: url("background.jpg");
+body, html {
+  height: 100%;
+  width: 100%;
   background-size: cover;
+  background-image: url('background.jpg');
 }
+
+
 
 .App {
   font-family: sans-serif;

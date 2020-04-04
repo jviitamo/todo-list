@@ -3,6 +3,7 @@ import "./styles.css";
 import TodoList from "./TodoList/TodoList.jsx";
 import Input from "./AddInput/index";
 import arrayMove from "array-move";
+import background from "./background.jpg"
 
 // Voit käyttää tätä listaa ykköstehtävässä.
 // eslint-disable-next-line
@@ -74,7 +75,7 @@ export default function App() {
   // Allaolevaan rakenteeseen lisätään komponentit listaelementille
   // ja lisäyselementille.
   return (
-    <div className="App">
+    <div className="App" >
       <h1 style={{ marginTop: "100px" }}>TO-DO LIST</h1>
       <TodoList
         list={list}
