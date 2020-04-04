@@ -2,11 +2,16 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 body, html {
   height: 100%;
   width: 100%;
   background-size: cover;
   background-image: url('background.jpg');
+=======
+html {
+  background-color: gray;
+>>>>>>> 1f7c4abf119d6996eb822f470b20bdd85229ed81
 }
 
 
